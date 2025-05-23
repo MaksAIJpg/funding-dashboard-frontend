@@ -11,7 +11,8 @@ export default function FundingDashboard() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch('https://your-backend-name.onrender.com/funding')
+      const res = await fetch('fetch('https://funding-arbitrage-backend.onrender.com/funding')
+')
       const result = await res.json()
       setData(result)
     }
